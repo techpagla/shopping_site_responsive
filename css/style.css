@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    
+}
+#first-section {
+    justify-content: center;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+}
+.first-section-left {
+    font-size: 25px;
+    width: 50%;
+    margin-left: 100px;
+}
+
+
+.flex {
+    display:flex;
+}
+.button{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 35px;
+    padding: 10px 45px;
+    
+}
+
+.right-image {
+    /* background-image: url(../images/Circle\ design.svg); */
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 50%;
+    margin-left: 100px;
+}
+.right-image img{
+    width: 30%;
+    position: absolute;
+}
+.h1{
+    text-align: center;
+}
+.collection-section{
+            margin: 250px 0px 100px 0px;
+}
+.grid-container{
+    margin-top: 20px;
+    justify-content: center;
+    background-color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 450px 450px 500px;
+    grid-column-gap: 30px;
+    grid-row-gap: 35px;   */
+    padding-top: 45px;  
+}
+.grid-item{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+
+}
+.grid-container img {
+    border-radius: 10px;
+}
+/* .see-more{
+    display: flex;
+    justify-content: right;
+    background-color: wheat;
+} */
+
+.see-more h4{
+    text-align: right;
+    /* background-color: wheat; */
+    margin-left: 900px;
+    margin-top: -20px;
+    width: 97px;
+}
+.contact-container-grid{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+.input{
+    width: 350px;
+    padding: 10px 5px;
+    margin: 2px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: navajowhite;;
+}
+.contact-container h1{
+    text-align: center;
+}
+.contact-container-grid textarea {
+    padding: 9px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: navajowhite;
+}
+
+
+footer{
+    background-color: #9e9d24;
+    padding: 15px;
+}
+footer h2,p{
+    text-align: center;
+}
+.social-link {
+        display: flex;
+        justify-content: center;
+        
+}
+
